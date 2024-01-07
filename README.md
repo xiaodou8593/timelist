@@ -2,12 +2,6 @@
 
 事件队列
 
-# 手动初始化事件队列
-
-```
-function timelist:_init
-```
-
 # 一个事件的临时对象
 
 ```
@@ -18,6 +12,12 @@ function timelist:_init
 	time: 8593296358,
 	run_space:{}
 }
+```
+
+# 手动初始化事件队列
+
+```
+function timelist:_init
 ```
 
 # 清空事件队列
